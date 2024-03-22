@@ -82,8 +82,8 @@ public class Animal implements IEntity {
     }
     
     public void move() {
-        x = x + Math.cos(Math.toRadians(direction)) * speed;
-        y = y + Math.sin(Math.toRadians(direction)) * speed; 
+        x = x + Math.cos(Math.toRadians(direction)) * getSpeed();
+        y = y + Math.sin(Math.toRadians(direction)) * getSpeed(); 
         
         System.out.println(getName() + " moves to " + x + ", " + y + ".");
     }
@@ -115,6 +115,27 @@ public class Animal implements IEntity {
      */
     public String getName() {
         return name;
+    }
+
+    /**
+     * @return the age
+     */
+    public int getAge() {
+        return age;
+    }
+
+    /**
+     * @return the size
+     */
+    public double getSize() {
+        return size;
+    }
+
+    /**
+     * @return the speed
+     */
+    public double getSpeed() {
+        return speed;
     }
     
 }
