@@ -15,6 +15,7 @@ public class ZooSim {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        LandAnim test = new LandAnim("test name", "test species", 1, 'M', 4.0, 30.0, "test");
     }
     
 }
