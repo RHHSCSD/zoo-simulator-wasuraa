@@ -5,9 +5,14 @@
 package zoosim;
 
 /**
- *
- * @author William
+ * An interface to represent anything that can swim in the water
+ * @author William Wen
  */
 public interface ISwimmable {
+
+    /**
+     * Returns whether or not the Object can surface
+     * @return true if the Object can surface, otherwise false
+     */
     public boolean canSurface();
 }

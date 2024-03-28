@@ -5,12 +5,28 @@
 package zoosim;
 
 /**
- *
- * @author William
+ * The interface IEntity represents an kind of entity
+ * @author William Wen
  */
 public interface IEntity extends IObject{
+
+    /**
+     * Moves the entity
+     */
     public void move();
+
+    /**
+     * Makes a sound
+     */
     public void makeSound();
+
+    /**
+     * Makes the entity eat
+     */
     public void eat();
+
+    /**
+     * Makes the entity sleep
+     */
     public void sleep();
 }

@@ -5,7 +5,7 @@
 package zoosim;
 
 /**
- *
+ * Simulator used to manage the Zoo
  * @author michael.roy-diclemen
  */
 public class ZooSim {
@@ -15,7 +15,13 @@ public class ZooSim {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        /* 
+        Test:
         LandAnim test = new LandAnim("test name", "test species", 1, 'M', 4.0, 30.0, "test");
+        Zoo z = new Zoo();
+        z.addAnimal(test);
+        z.displayStats();
+        */
     }
     
 }

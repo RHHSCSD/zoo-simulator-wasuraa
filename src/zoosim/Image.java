@@ -5,8 +5,8 @@
 package zoosim;
 
 /**
- *
- * @author William
+ * The class Image represents an Image
+ * @author William Wen
  */
 public class Image {
     private int width;
